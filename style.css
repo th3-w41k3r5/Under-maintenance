@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Futura Bold';
+  src: url('Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Futura Bold', sans-serif;
+  background-image: url("https://walkerworld.ai/wp-content/uploads/2023/10/WhatsApp-Image-2023-10-26-at-08.43.55-1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer {
+    font-family: 'Consola', monospace;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 44%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 0 0 25px #fbda04,  0 0 25px #fbda04;
+    
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #fbda04;
+  margin-bottom: 6px;
+}
+
+.let-go {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+.footer {
+    font-family: "Consolas", monospace;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
